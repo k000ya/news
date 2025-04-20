@@ -1,0 +1,65 @@
+@use 'variables';
+
+body {
+  background-color: variables.$background-color;
+  color: variables.$text-color;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: variables.$primary-color;
+}
+
+a {
+  color: variables.$primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: variables.$secondary-color;
+  }
+}
+
+button {
+  background-color: variables.$button-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: variables.$button-hover-color;
+  }
+}
+
+.fi-social-facebook {
+  color: variables.$facebook-color;
+  font-size: 2rem;
+}
+
+.fi-social-twitter {
+  color: variables.$twitter-color;
+  font-size: 2rem;
+}
+
+.fi-social-instagram {
+  color: variables.$instagram-color;
+  font-size: 2rem;
+}
+
+.fi-social-pinterest {
+  color: variables.$pinterest-color;
+  font-size: 2rem;
+}
+
+.fi-social-youtube {
+  color: variables.$youtube-color;
+  font-size: 2rem;
+}
+
+.fi-social-tumblr {
+  color: variables.$tumblr-color;
+  font-size: 2rem;
+}

@@ -1,0 +1,19 @@
+header {
+ width: 100%;
+}
+
+.grid-container {
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/21/e5/82/21e582b37cfe61c8752d01f4ed796890.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+  }
+
+  .grid-x {
+    padding: 15px;
+  } 
+  
+  footer {
+    background-color: #d4d4d4;
+  }
