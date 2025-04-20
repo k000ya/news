@@ -17,3 +17,51 @@ header {
   footer {
     background-color: #d4d4d4;
   }
+  @media print {
+    /* Сховати непотрібні елементи */
+    .top-bar,
+    .title-bar,
+    .nav2,
+    aside,
+    footer,
+    .pagination,
+    input[type="search"],
+    button,
+    .menu-icon,
+    .submenu,
+    .fi-social-facebook,
+    .fi-social-twitter,
+    .fi-social-instagram,
+    .fi-social-pinterest,
+    .fi-social-youtube,
+    .fi-social-tumblr {
+      display: none !important;
+    }
+
+    /* Основний контент – займає всю ширину */
+    .large-8.cell {
+      width: 100% !important;
+      border: none;
+    }
+
+    /* Видалити фон */
+    body {
+      background: white !important;
+      color: black !important;
+      font-size: 12pt;
+    }
+
+    h1, h4, h5 {
+      color: black !important;
+      page-break-after: avoid;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @page {
+      margin: 2cm;
+    }
+  }
