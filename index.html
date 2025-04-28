@@ -1,67 +1,45 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="uk">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHF37YKL4L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YHF37YKL4L');
-</script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Останні новини України та світу. Читайте актуальні статті на різноманітні теми: політика, економіка, культура, спорт та інші.">
     <meta name="keywords" content="новини, Україна, світ, політика, економіка, культура, спорт, погода, техно, наука">
     <meta name="author" content="VPS News">
     <title>Новини | News</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style.scss">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHF37YKL4L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YHF37YKL4L');
+    </script>
+
+    <style>
+      .fi-social-facebook { color: dodgerblue; font-size: 2rem; }
+      .fi-social-youtube { color: red; font-size: 2rem; }
+      .fi-social-pinterest { color: darkred; font-size: 2rem; }
+      i.fi-social-instagram { color: brown; font-size: 2rem; }
+      i.fi-social-tumblr { color: navy; font-size: 2rem; }
+      .fi-social-twitter { color: skyblue; font-size: 2rem; }
+    </style>
   </head>
   <body>
 
-    <style>
-      .fi-social-facebook {
-        color: dodgerblue;
-        font-size: 2rem;
-      }
-      .fi-social-youtube {
-        color: red;
-        font-size: 2rem;
-      }
-      .fi-social-pinterest {
-        color: darkred;
-        font-size: 2rem;
-      }
-      i.fi-social-instagram {
-        color: brown;
-        font-size: 2rem;
-      }
-      i.fi-social-tumblr {
-        color: navy;
-        font-size: 2rem;
-      }
-      .fi-social-twitter {
-        color: skyblue;
-        font-size: 2rem;
-      }
-    
-    </style>
-    
-    <header>      
-      <article class="grid-container">
-      </article>
-    
+    <header>
       <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle></button>
         <div class="title-bar-title">Menu</div>
       </div>
-    
-      <div class="top-bar align-center" id="main-menu">
+
+      <nav class="top-bar align-center" id="main-menu">
         <ul class="menu vertical medium-horizontal medium-text-center" data-responsive-menu="drilldown medium-dropdown">
           <li class="has-submenu"><a href="#">Головна</a>
             <ul class="submenu menu vertical" data-submenu>
@@ -104,208 +82,73 @@
           </li>
         </ul>
         <div class="top-bar-right">
-            <ul class="menu">
-              <li><input type="search" placeholder="Search"></li>
-              <li><button type="button" class="button">Пошук</button></li>
-            </ul>
-          </div>
-      </div>
-    
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Пошук</button></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    
-    
-    <hr>
-    
-    <div class="text-center">
-      <h4 style="margin: 0;" class="text-center">ОСТАННІ НОВИНИ</h4>
-    </div>
-    
-    <hr>
-    
-    <div class="grid-x grid-margin-x">
-      <div class="large-8 cell" style="border-right: 1px solid #E3E5E8;">
-    
-    
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 cell">
-            <p><img src="https://fact-news.com.ua/wp-content/uploads/11-9.jpg" alt="технології"></p>
-          </div>
+
+    <main class="grid-x grid-margin-x">
+      <section class="large-8 cell" aria-label="Останні новини">
+
+        <header class="text-center">
+          <h2>ОСТАННІ НОВИНИ</h2>
+        </header>
+
+        <hr>
+
+        <article class="grid-x grid-margin-x">
+          <figure class="large-6 cell">
+            <img src="https://fact-news.com.ua/wp-content/uploads/11-9.jpg" alt="технології">
+          </figure>
           <div class="large-6 cell">
             <h5><a href="#">Технології майбутнього: Як ШІ змінює наше життя</a></h5>
-            <p>
-              <span><i class="fi-torso"> Автор &nbsp;&nbsp;</i></span>
-              <span><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i></span>
-              <span><i class="fi-comments"> 6 коментарів </i></span>
-            </p>
-            <p>Обговорення останніх досягнень у галузі штучного інтелекту та їх вплив на різні сфери життя. Як автоматизація та алгоритми вже сьогодні змінюють бізнес, медицину, освіту і навіть наше повсякденне життя? Чи варто переживати, що роботи скоро замінять людей?</p>
+            <p><i class="fi-torso"> Автор &nbsp;&nbsp;</i><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i><i class="fi-comments"> 6 коментарів</i></p>
+            <p>Обговорення останніх досягнень у галузі штучного інтелекту...</p>
           </div>
-        </div>
-    
-        <hr>
-    
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 cell">
-            <p><img src="https://hvylya.net/crops/930113/834x0/1/0/2024/10/21/CMTllGR68h0M3QQb0khHIWK3d2FSNbbzMpNZFVZg.jpeg" alt="потепління"></p>
-          </div>
-          <div class="large-6 cell">
-            <h5><a href="#">Несподіване потепління: Україна готується до рекордних температур</a></h5>
-            <p>
-                <span><i class="fi-torso"> Автор &nbsp;&nbsp;</i></span>
-                <span><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i></span>
-                <span><i class="fi-comments"> 6 коментарів </i></span>
-              </p>
-            <p>Прогноз синоптиків на найближчі тижні: в Україні очікуються аномально високі температури. Як це позначиться на сільському господарстві, енергетиці та повсякденному житті українців? Які заходи вживає уряд для боротьби з наслідками глобального потепління?</p>
-          </div>
-        </div>
-    
-        <hr>
-    
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 cell">
-            <p><img src="https://i.lb.ua/093/20/5c9b4a7111a10.jpeg" alt="санкції"></p>
-          </div>
-          <div class="large-6 cell">
-            <h5><a href="#">Світова економіка під ударом санкцій: Наслідки для бізнесу</a></h5>
-            <p>
-                <span><i class="fi-torso"> Автор &nbsp;&nbsp;</i></span>
-                <span><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i></span>
-                <span><i class="fi-comments"> 6 коментарів </i></span>
-              </p>
-            <p>У відповідь на нові міжнародні санкції, економічна ситуація в світі стає все більш непередбачуваною. Як санкції впливають на глобальні фінансові ринки, ціни на енергоносії та міжнародні компанії? Що це означає для малих підприємств та інвесторів? Як адаптується український бізнес до нових умов?</p>
-          </div>
-        </div>
-    
-        <hr>
-    
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 cell">
-            <p><img src="https://novy.tv/wp-content/uploads/sites/96/2021/04/GettyImages-1314465882.jpg" alt="кінопрем'єри"></p>
-          </div>
-          <div class="large-6 cell">
-            <h5><a href="#">Світові кінопрем'єри 2025: Зірки на червоній доріжці</a></h5>
-            <p>
-                <span><i class="fi-torso"> Автор &nbsp;&nbsp;</i></span>
-                <span><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i></span>
-                <span><i class="fi-comments"> 6 коментарів </i></span>
-              </p>
-            <p>Продовження кінематографічного сезону 2025 року обіцяє бути насиченим. Які фільми та серіали викликали найбільший ажіотаж серед критиків та глядачів? Хто з відомих акторів здивував своїми образами на червоній доріжці?</p>
-          </div>
-        </div>
-    
-        <hr>
-    
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 cell">
-            <p><img src="https://atomy.com.ua/wp-content/uploads/2024/11/opera-znimok_2024-11-08_135805_unsplash.com_.png" alt="кіно"></p>
-          </div>
-          <div class="large-6 cell">
-            <h5><a href="#">Нові тенденції у світі кіно: Чого очікувати від кінематографа в 2025 році?</a></h5>
-            <p>
-                <span><i class="fi-torso"> Автор &nbsp;&nbsp;</i></span>
-                <span><i class="fi-calendar"> 24/03/25 &nbsp;&nbsp;</i></span>
-                <span><i class="fi-comments"> 6 коментарів </i></span>
-              </p>
-            <p>Індустрія кіно не стоїть на місці. Які нові технології впливають на виробництво фільмів, і як вони змінюють сам процес зйомок та кінопереглядів? Чи стане віртуальна реальність та штучний інтелект частиною масового кінематографа?</p>
-          </div>
-        </div>
-    
-      </div>
-      <div class="grid-x large-4 cell">
-    
-        <aside>
-    
-          <div class="grid-x small-up-3">
-    
-            <div class="cell text-center">
-              <i class="fi-social-facebook"></i>
-              <h6>56,009</h6>
-              <p><small>Читачі</small></p>
-              <br>
-            </div>
-    
-            <div class="cell text-center">
-              <i class="fi-social-twitter"></i>
-              <h6>76,905</h6>
-              <p><small>Читачі</small></p>
-              <br>
-            </div>
-    
-            <div class="cell text-center">
-              <i class="fi-social-instagram"></i>
-              <h6>34,099</h6>
-              <p><small>Читачі</small></p>
-              <br>
-            </div>
-    
-            <div class="cell text-center">
-              <i class="fi-social-tumblr"></i>
-              <h6>13,765</h6>
-              <p><small>Читачі</small></p>
-            </div>
-    
-            <div class="cell text-center">
-              <i class="fi-social-pinterest"></i>
-              <h6>9,283</h6>
-              <p><small>Читачі</small></p>
-            </div>
-    
-            <div class="cell text-center">
-              <i class="fi-social-youtube"></i>
-              <h6>99,000</h6>
-              <p><small>Читачі</small></p>
-            </div>
-    
-          </div>
-    
-          <br>
-    
-          <div class="grid-x cell">
-            <p class="lead">ПОПУЛЯРНЕ</p>
-    
-            <div class="media-object">
-              <div class="media-object-section">
-                <h5><a href="#">Технології майбутнього: Як штучний інтелект змінює наш світ</a></h5>
-              </div>
-            </div>
-    
-            <div class="media-object">
-              <div class="media-object-section">
-                <h5><a href="#">Погода в Україні: Очікуються рекордні температури – що принесуть наступні дні?</a></h5>
-              </div>
-            </div>
-    
-            <div class="media-object">
-              <div class="media-object-section">
-                <h5><a href="#">Глобальні економічні зміни: Як впливають нові санкції на міжнародні ринки</a></h5>
-              </div>
-            </div>
-    
-            <div class="media-object">
-              <div class="media-object-section">
-                <h5><a href="#">Зірки на червоній доріжці: Найяскравіші моменти з останнього кінопремії</a></h5>
-              </div>
-            </div>
+        </article>
 
-            <div class="grid-x cell1">
-                <p class="lead">РЕКЛАМА</p>
-            <a href="https://chernivtsi.karabas.com/serhiy-zhadan-prezentatsiya-knyzhky-arabesky-3/">
-                <div class="image1">
-                <img src="https://images.karabas.com/external/018e50bb-71e5-7428-9b44-4f503fcfd169/events/0195235f-883f-7131-9337-07d7be8b201f/2526182874_ImageBig638756588696962866_700_1000.webp?v=1">
-                </a>
-                </div>
-                <a href="https://chernivtsi.karabas.com/fel-ner-amp-hel-mer-prezentuyut-teatr-im-o-kobylyans-koi-3/">
-                    <div class="image2" style="margin-top: 15px ;">
-                    <img src="https://images.karabas.com/external/018e50bb-71e5-7428-9b44-4f503fcfd169/events/0194df91-229b-7432-8a05-9993d69a96a5/2357865619_ImageBig638484761332647704_700_1000.webp?v=1">
-                    </a>
-                    </div>
-            </div>
-    
+        <hr>
+
+      </section>
+
+      <aside class="large-4 cell">
+        <section aria-label="Соцмережі">
+          <div class="grid-x small-up-3 text-center">
+            <div class="cell"><i class="fi-social-facebook"></i><h6>56,009</h6><p><small>Читачі</small></p></div>
+            <div class="cell"><i class="fi-social-twitter"></i><h6>76,905</h6><p><small>Читачі</small></p></div>
+            <div class="cell"><i class="fi-social-instagram"></i><h6>34,099</h6><p><small>Читачі</small></p></div>
+            <div class="cell"><i class="fi-social-tumblr"></i><h6>13,765</h6><p><small>Читачі</small></p></div>
+            <div class="cell"><i class="fi-social-pinterest"></i><h6>9,283</h6><p><small>Читачі</small></p></div>
+            <div class="cell"><i class="fi-social-youtube"></i><h6>99,000</h6><p><small>Читачі</small></p></div>
           </div>
-    
-        </aside>
-      </div>
-      <hr>
-      <div class="nav2" style="padding-left: 40%;">
+        </section>
+
+        <section aria-label="Популярне">
+          <h3>ПОПУЛЯРНЕ</h3>
+          <ul>
+            <li><a href="#">Технології майбутнього: Як штучний інтелект змінює наш світ</a></li>
+            <li><a href="#">Погода в Україні: Очікуються рекордні температури</a></li>
+            <li><a href="#">Глобальні економічні зміни: Вплив санкцій</a></li>
+            <li><a href="#">Зірки на червоній доріжці: Кінопремії 2025</a></li>
+          </ul>
+        </section>
+
+        <section aria-label="Реклама">
+          <h3>РЕКЛАМА</h3>
+          <a href="https://chernivtsi.karabas.com/serhiy-zhadan-prezentatsiya-knyzhky-arabesky-3/">
+            <img src="https://images.karabas.com/external/018e50bb-71e5-7428-9b44-4f503fcfd169/events/0195235f-883f-7131-9337-07d7be8b201f/2526182874_ImageBig638756588696962866_700_1000.webp?v=1" alt="Жадан">
+          </a>
+          <a href="https://chernivtsi.karabas.com/fel-ner-amp-hel-mer-prezentuyut-teatr-im-o-kobylyans-koi-3/">
+            <img style="margin-top: 15px;" src="https://images.karabas.com/external/018e50bb-71e5-7428-9b44-4f503fcfd169/events/0194df91-229b-7432-8a05-9993d69a96a5/2357865619_ImageBig638484761332647704_700_1000.webp?v=1" alt="Театр">
+          </a>
+        </section>
+      </aside>
+    </main>
+
+    <nav class="nav2" style="padding-left: 40%;">
       <ul class="pagination margin-bottom-2" role="navigation" aria-label="Pagination">
         <li class="disabled">Попередня<span class="show-for-sr">сторінка</span></li>
         <li class="current"><span class="show-for-sr">Ви на сторінці</span> 1</li>
@@ -314,13 +157,10 @@
         <li><a href="#" aria-label="Page 4">4</a></li>
         <li><a href="#" aria-label="Next page">Наступна <span class="show-for-sr">сторінка</span></a></li>
       </ul>
-      </div>
+    </nav>
 
-    </div>
-    </article>
     <footer>
       <div class="grid-x grid-margin-y expanded">
-    
         <div class="medium-6 cell">
           <ul class="menu">
             <li><a href="#">Про нас</a></li>
@@ -328,23 +168,17 @@
             <li><a href="#">Інші проєкти</a></li>
           </ul>
         </div>
-    
         <div class="medium-6 cell">
           <ul class="menu align-right">
             <li class="menu-text">Copyright © 2025 VPS</li>
           </ul>
         </div>
       </div>
-    
     </footer>
-    
-
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script>$(document).foundation();</script>
   </body>
 </html>
